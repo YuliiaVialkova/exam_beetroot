@@ -1,9 +1,12 @@
 //fonts
-$google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
-$prefix: prefix- !default;
+$google-font: "https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap";
+
 $baseFontSize: 16px;
-$baseFontFamily: "Ubuntu", sans-serif;
+$baseFontFamily: "Vollkorn", serif;
+
 $mediumFontWeight: 500;
+$regularFontWeight: 400;
+$boldFontWeight: 700;
 
 $mobilePadding: (12px / $baseFontSize) * 1rem;
 $desktopPadding: 1rem;
@@ -17,18 +20,8 @@ $usersFilesPath: "../userfiles/";
 // Colors
 $black: #000000;
 $white: #ffffff;
-$blue: #0d6efd !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #d63384 !default;
-$red: #dc3545 !default;
-
-$colors: (
-  "black": $black,
-  "white": $white,
-  "blue": $blue,
-  "indigo": $indigo,
-  "purple": $purple,
-  "pink": $pink,
-  "red": $red,
-) !default;
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
